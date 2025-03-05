@@ -9,7 +9,7 @@
 
 <div class="w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
     {% for book in books %}
-    <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="bg-white rounded-lg shadow-md p-4 flex-col h-full">
         <h2 class="text-xl font-semibold italic">
             {{ book.title }}
         </h2>
@@ -25,7 +25,7 @@
         <div class="text-sm text-gray-500 mt-2">
             Updated on: {{ book.updated_at }}
         </div>
-        <div class="mt-4 flex space-x-2">
+        <div class="mt-4 flex space-x-2 ">
             <a href="{% url 'book_edit' book.id %}" class="px-4 py-2 bg-emerald-500 text-white rounded-lg">Edit</a>
             <a href="{% url 'book_delete' book.id %}" class="px-4 py-2 bg-red-500 text-white rounded-lg">Delete</a>
         </div>
