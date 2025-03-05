@@ -1,0 +1,90 @@
+[
+    {
+        "model": "book_store.book",
+        "pk": 3,
+        "fields": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "description": "A story about wealth, love, and the American Dream.",
+            "published_year": 1925,
+            "updated_at": "2025-02-27T20:00:00Z"
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 4,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "description": "A classic romance novel about love and societal expectations.",
+            "published_year": 1813,
+            "updated_at": "2025-02-28T20:00:00Z"
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 5,
+        "fields": {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "description": "A novel about teenage rebellion and identity.",
+            "published_year": 1951,
+            "updated_at": "2025-02-28T20:00:00Z" 
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 6,
+        "fields": {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "description": "A fantasy novel about Bilbo Baggins' adventure.",
+            "published_year": 1937,
+            "updated_at": "2025-03-01T20:00:00Z" 
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 7,
+        "fields": {
+            "title": "Harry Potter and the Sorcerer’s Stone",
+            "author": "J.K. Rowling",
+            "description": "The first book in the Harry Potter series.",
+            "published_year": 1997,
+            "updated_at": "2025-02-27T20:00:00Z"
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 8,
+        "fields": {
+            "title": "Moby-Dick",
+            "author": "Herman Melville",
+            "description": "A novel about Captain Ahab's obsession with a white whale.",
+            "published_year": 1851,
+            "updated_at": "2025-03-01T20:00:00Z"
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 9,
+        "fields": {
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "description": "An epic novel about Russian society during the Napoleonic Wars.",
+            "published_year": 1869,
+            "updated_at": "2025-02-27T20:00:00Z"
+        }
+    },
+    {
+        "model": "book_store.book",
+        "pk": 10,
+        "fields": {
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "description": "A novel about following one's dreams and destiny.",
+            "published_year": 1988,
+            "updated_at": "2025-03-03T20:00:00Z"
+        }
+    }
+]

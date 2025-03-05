@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Book Store{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen">
+    
+    <!-- Navbar -->
+    <nav class="bg-orange-400 p-4 text-white shadow-md">
+        <div class="max-w-3xl mx-auto flex justify-between items-center">
+            <a href="{% url 'book_list' %}" class="text-2xl font-bold italic">BookSelf</a>
+            <a href="{% url 'book_add' %}" class="px-4 py-2 bg-white text-teal-600 rounded-lg font-semibold">Add Book</a>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="flex-grow max-w-3xl mx-auto p-6">
+        {% block content %}{% endblock %}
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-orange-300 p-4 text-white text-center mt-6">
+        <p>&copy; 2025 BookSelf. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
